@@ -39,8 +39,8 @@ const axesHelper = new THREE.AxesHelper();
 // mesh.rotation.y = Math.PI;
 
 const sizes = {
-    width: 800,
-    height: 600,
+  width: window.innerWidth,
+  height: window.innerHeight,
 };
 
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height);
