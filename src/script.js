@@ -6,20 +6,6 @@ const scene = new THREE.Scene();
 
 const canvas = document.querySelector(".webgl");
 
-// const geometry = new THREE.BoxGeometry(1, 1, 1);
-// const material = new THREE.MeshBasicMaterial({ color: 0xb8467 });
-// const mesh = new THREE.Mesh(geometry, material);
-// scene.add(mesh);
-// mesh.position.set(-1, 1, 0);
-
-// // scale
-
-// mesh.scale.set(1, 1, 0.5);
-
-// mesh.rotation.reorder("YXZ");
-// mesh.rotation.x = Math.PI * 0.25;
-
-// adding group
 
 const group = new THREE.Group();
 scene.add(group);
@@ -32,11 +18,6 @@ group.add(cube1);
 
 // to see axes
 const axesHelper = new THREE.AxesHelper();
-// scene.add(axesHelper);
-
-// rotation
-
-// mesh.rotation.y = Math.PI;
 
 const sizes = {
   width: window.innerWidth,
